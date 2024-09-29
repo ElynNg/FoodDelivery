@@ -1,11 +1,10 @@
-// eslint-disable-next-line no-unused-vars
-import React from 'react'
 import './Home.css'
+import Header from '../../components/Header/Header.jsx'
 
 const Home = () => {
   return (
     <div>
-        
+        <Header/>
     </div>
   )
 }
