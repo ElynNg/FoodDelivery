@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar/Navbar'
+import Footer from './components/Footer/Footer'
 import {Routes, Route} from 'react-router-dom'
 import Home from './pages/Home/Home'
 import Cart from './pages/Cart/Cart'
@@ -13,6 +14,7 @@ const App = () => {
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/order' element={<PlaceOrder/>}/>
       </Routes>
+    <Footer/>
     </div>
   )
 }
