@@ -54,7 +54,12 @@
     margin: 10px 0;
 }
 
-.cart-total button {
+.card-total-button {
+    width: 100%;
+    text-align: center;
+}
+
+.card-total-button button {
     border: none;
     color: white;
     background-color: tomato;
@@ -62,9 +67,7 @@
     padding: 12px 0;
     border-radius: 4px;
     cursor: pointer;
-    margin: 20px;
-    position: relative;
-    left: 30%;
+    margin-top: 20px;
 }
 
 .cart-promocode {
