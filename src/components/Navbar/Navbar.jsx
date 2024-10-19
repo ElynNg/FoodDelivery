@@ -14,8 +14,8 @@ const Navbar = ({setShowLogin}) => {
       <Link to='/cart'><p className="nav-name">Elyn <span>.</span></p></Link>
       <ul className="navbar-menu">
         <Link onClick={() => setMenu("home")}className={menu === "home" ? "active" : ""}>home</Link>
-        <a href="#explore-menu" onClick={() => setMenu("menu")}className={menu === "menu" ? "active" : ""}>menu</a>
-        <a href="#app-download" onClick={() => setMenu("mobile-app")}className={menu === "mobile-app" ? "active" : ""}>mobile-app</a>
+        <a href="#explore-menu"  onClick={() => setMenu("menu")}className={menu === "menu" ? "active" : ""}>menu</a>
+        <a href="#app-download"  onClick={() => setMenu("mobile-app")}className={menu === "mobile-app" ? "active" : ""}>mobile-app</a>
         <a href="#footer" onClick={() => setMenu("contact-info")}className={menu === "contact-info" ? "active" : ""}>contact us</a>
       </ul>
 
