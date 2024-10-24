@@ -11,8 +11,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "test": "jest --coverage"
+    "preview": "vite preview"
   },
   "dependencies": {
     "prop-types": "^15.8.1",
