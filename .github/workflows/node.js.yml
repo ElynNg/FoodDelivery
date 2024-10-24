@@ -34,7 +34,7 @@ jobs:
       run: |
         git config --global user.name Eleanor Nguyen
         git config --global user.email 74583218+ElynNg@users.noreply.github.com
-        git remote set-url origin https://github.com/ElynNg/FoodDelivery.git
+        git remote set-url origin git@github.com:ElynNg/FoodDelivery.git
         npm run deploy
       env:
         user_name: 'Eleanor Nguyen'
