@@ -38,7 +38,7 @@ jobs:
 
     - name: Deploy
       run: |
-        git config --global user.name elynng
+        git config --global user.name Eleanor Nguyen
         git config --global user.email ndym1489@gmail.com
         git remote set-url origin https://github.com/ElynNg/FoodDelivery.git
         npm run deploy
