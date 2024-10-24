@@ -40,5 +40,5 @@ jobs:
       run: |
         git config --global user.name elynng
         git config --global user.email ndym1489@gmail.com
-        git remote set-url origin https://elynng.github.io/FoodDelivery/
+        git remote set-url origin https://github.com/ElynNg/FoodDelivery.git
         npm run deploy
