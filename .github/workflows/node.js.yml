@@ -38,6 +38,8 @@ jobs:
     - name: Deploy
       run: |
         git config --global user.name ElynNg
-        git config --global user.email ndym1489@gmail.com
+        git config --global user.email 74583218+ElynNg@users.noreply.github.com
         git remote set-url origin https://github.com/ElynNg/FoodDelivery.git
         npm run deploy
+      with:
+        token: Elyn_GH_TOKEN
