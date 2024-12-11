@@ -14,6 +14,6 @@ const storage = multer.diskStorage({
 
 const upload = multer({storage:storage})
 
-foodRoute.post("/add", addFood)
+foodRoute.post("/add", upload.single('image'), addFood);
 
 export default foodRoute;
